@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRISHTI FITNESS</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url("img/bg.jpg");
+        color: white;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+
+    .mid {
+        display: block;
+        margin: 22px auto;
+        width: 650px;
+        font-style: oblique;
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        color: white;
+        font-size: 17px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px;
+
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(228, 239, 33);
+
+
+
+    }
+
+    .left img {
+        width: 100px;
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .btn {
+        color: white;
+        padding: 4px 14px;
+        background-color: black;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(67, 63, 63);
+    }
+
+    .container {
+        margin: 100px 100px;
+        padding: 75px 75px;
+        width: 40%;
+        border-radius: 5px;
+        border: 2px solid white;
+        text-align: center;
+        font-style: italic;
+
+
+
+    }
+
+    .form-group input {
+        font-size: 20px;
+        text-align: center;
+        display: block;
+        padding: 5px;
+        border: 2px solid black;
+        margin: 5px auto;
+        width: 450px;
+        font-style: oblique;
+        font-weight: bold;
+
+    }
+
+    .container h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+    .container .btn:hover {
+        background-color: rgb(84, 84, 14);
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo  -->
+        <div class="left">
+            <img src="img/man.png" alt="">
+            <div> FITNESS</div>
+        </div>
+        <!-- mid box for navigation bar  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons  -->
+        <div class="right">
+            <button class="btn">
+                Call Us Now
+            </button>
+            <button class="btn">
+                E-mail Us
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym Of Greater Noida Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter Your Phone number">
+            </div>
+            <div class="form-group">
+                <input type="number text" name="" placeholder="Enter Your E-mail">
+            </div>
+            <div class="form-group">
+                <input type="number text" name="" placeholder="Enter Your Address">
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
